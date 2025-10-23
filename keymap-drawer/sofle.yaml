@@ -179,7 +179,7 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ENTER
   - BACKSPACE
   - DELETE
   - {t: ▽, type: trans}
