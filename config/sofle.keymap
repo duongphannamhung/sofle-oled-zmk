@@ -44,7 +44,7 @@
 &kp TAB     &kp Q   &kp W             &kp F         &kp P             &kp B                                    &kp J   &kp L             &kp U              &kp Y    &kp P     &kp BACKSLASH
 &kp ESCAPE  &kp A   &kp R             &kp S         &kp T             &kp G                                    &kp M   &kp N             &kp E              &kp I    &kp O     &kp SQT
 &kp LSHFT   &kp Z   &kp X             &kp C         &kp D             &kp V      &kp C_MUTE    &kp SCROLLLOCK  &kp K   &kp H             &kp COMMA          &kp DOT  &kp FSLH  &kp RSHFT
-                    &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_COMMAND  &kp SPACE  &mo 2         &mo 3           &mo 1   &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &none
+                    &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_COMMAND  &kp SPACE  &mo 2         &kp A           &mo 1   &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &none
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
