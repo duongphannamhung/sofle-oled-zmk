@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: sofle}
 layers:
   default: ['`', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', BACKSPACE, TAB, Q, W, F, P, B, J, L, U, Y, P, \, ESCAPE, A, R, S, T, G, M, N, E, I, O, '''', LSHFT,
-    Z, X, C, D, V, MUTE, ESC, K, H, ',', ., /, RSHFT, LEFT CONTROL, LEFT ALT, LEFT COMMAND, SPACE, raise, adjust, lower, '[', ']', ']']
+    Z, X, C, D, V, MUTE, SCROLLLOCK, K, H, ',', ., /, RSHFT, LEFT CONTROL, LEFT ALT, LEFT COMMAND, SPACE, raise, adjust, lower, '[', ']', '']
   lower:
   - {t: ▽, type: trans}
   - F1
@@ -27,7 +27,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - F12
-  - CAPS
+  - ''
   - ':'
   - '4'
   - '5'
@@ -39,7 +39,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - CLCK
   - '`'
   - '1'
   - '2'
@@ -75,6 +75,18 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - DELETE
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - REDO
+  - PASTE
+  - COPY
+  - CUT
+  - UNDO
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -82,21 +94,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - LEFT ARROW
-  - DOWN ARROW
+  - LEFT
+  - DOWN
   - UP ARROW
   - RIGHT ARROW
   - {t: ▽, type: trans}
@@ -109,7 +108,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - HOME
+  - END
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -120,38 +120,11 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ENTER
+  - DELETE
+  - BACKSPACE
   - {t: ▽, type: trans}
   adjust:
-  - BT CLR
-  - {t: BT, h: '0'}
-  - {t: BT, h: '1'}
-  - {t: BT, h: '2'}
-  - {t: BT, h: '3'}
-  - {t: BT, h: '4'}
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - EP TOG
-  - RGB HUD
-  - RGB HUI
-  - RGB SAD
-  - RGB SAI
-  - RGB EFF
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - RGB BRD
-  - RGB BRI
   - ''
   - ''
   - ''
@@ -165,9 +138,36 @@ layers:
   - ''
   - ''
   - ''
+  - F12
+  - F7
+  - F8
+  - F9
   - ''
   - ''
-  - RGB TOG
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - F11
+  - F4
+  - F5
+  - F6
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - F10
+  - F1
+  - F2
+  - F3
+  - ''
+  - ''
   - ''
   - ''
   - ''
