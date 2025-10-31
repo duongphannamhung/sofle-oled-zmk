@@ -176,7 +176,7 @@ layers:
   - {t: ▽, type: trans}
   - .
   - '0'
-  - _
+  - '-'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
