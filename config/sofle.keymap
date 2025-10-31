@@ -27,10 +27,10 @@
             bindings = <&mo>, <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <180>;
+            tapping-term-ms = <150>;
             hold-trigger-key-positions = <51 52 53 56 57 58>;
             flavor = "hold-preferred";
-            require-prior-idle-ms = <180>;
+            require-prior-idle-ms = <150>;
         };
 
         modifierholdtap: modifierholdtap {
@@ -39,10 +39,10 @@
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <270>;
+            tapping-term-ms = <200>;
             hold-trigger-key-positions = <25 26 27 28 31 32 33 34>;
             flavor = "tap-preferred";
-            require-prior-idle-ms = <270>;
+            require-prior-idle-ms = <200>;
         };
     };
 
