@@ -39,10 +39,10 @@
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <200>;
+            tapping-term-ms = <210>;
             hold-trigger-key-positions = <25 26 27 28 31 32 33 34>;
             flavor = "tap-preferred";
-            require-prior-idle-ms = <210>;
+            require-prior-idle-ms = <230>;
         };
     };
 
